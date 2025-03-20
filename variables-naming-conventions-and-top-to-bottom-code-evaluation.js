@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let personName = "Alice";
+let numItems = 5;
+let amount = 20;
+let location = "Schnucks";
+let day = "Monday";
+let sentence = personName + " bought " + numItems + " items for $" + amount + " at " + location + " on " + day + ".";
 
-console.log(d);
+console.log(sentence);
